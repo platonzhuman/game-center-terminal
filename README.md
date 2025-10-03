@@ -4,7 +4,7 @@
 
 ```bash
 # 1. Скачай игру
-git clone https://github.com/platonzhuman/terminal-game-manager.git
+git clone https://github.com/platonzhuman/game-center-terminal.git
 
 # 2. Зайди в папку  
 cd terminal-game-manager
@@ -14,7 +14,7 @@ python -m tgm.main
 
 📥 Если нет Git:
 
-    Скачай ZIP: https://github.com/platonzhuman/terminal-game-manager
+    Скачай ZIP: https://github.com/platonzhuman/game-center-terminal
 
     Распакуй в любую папку
 
