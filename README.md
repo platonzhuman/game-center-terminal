@@ -4,7 +4,7 @@
 
 ```powershell
 # 1. Скачай игру
-git clone https://github.com/platonzhuman/terminal-game-manager.git
+git clone https://github.com/platonzhuman/game-center-terminal.git
 cd terminal-game-manager
 
 # 2. Установи зависимости
@@ -17,7 +17,7 @@ python -m tgm.main
 bash
 
 # 1. Скачай игру
-git clone https://github.com/platonzhuman/terminal-game-manager.git
+git clone https://github.com/platonzhuman/game-center-terminal.git
 cd terminal-game-manager
 
 # 2. Запусти игру (curses уже есть в системе)
@@ -25,7 +25,7 @@ python3 -m tgm.main
 
 📥 Если нет Git:
 
-    Скачай ZIP: https://github.com/platonzhuman/terminal-game-manager
+    Скачай ZIP: https://github.com/platonzhuman/game-center-terminal
 
     Распакуй
 
