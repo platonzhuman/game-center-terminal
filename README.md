@@ -1,58 +1,99 @@
-# game-center-terminal
-# 🎮 Terminal Game Manager (TGM)
-
-
-
-
 # 🎮 Terminal Game Manager
 
-## 🚀 Установка (ВСЕ ОС - одна команда!)
+**Установка одной командой для любой ОС!** Просто скопируй и вставь в терминал.
 
-### Способ 1: Через прямую ссылку (рекомендуется)
-```bash
-pip install https://github.com/platonzhuman/terminal-game-manager/releases/download/v1.0.0/terminal-game-manager.zip
-tgm
+## 🚀 БЫСТРАЯ УСТАНОВКА
 
-###--------------------------------------------------------------------------
-
-Способ 2: Через Git (требует установленный Git)
-
-bash
-pip install git+https://github.com/platonzhuman/terminal-game-manager.git
-tgm
-
-
-###-------------------------------------------------------------------------
-# 🎮 Terminal Game Manager
-
-## 🚀 УСТАНОВКА ДЛЯ WINDOWS
-
-### Способ 1: Скачать ZIP и установить
+### Для Windows (PowerShell):
 ```powershell
-# 1. Скачай архив: https://github.com/platonzhuman/terminal-game-manager/releases
-# 2. Распакуй в папку C:\terminal-game-manager
-# 3. Запусти игру:
-cd C:\terminal-game-manager
+irm https://raw.githubusercontent.com/platonzhuman/terminal-game-manager/main/install.ps1 | iex
+
+Для Linux/macOS:
+bash
+
+curl -s https://raw.githubusercontent.com/platonzhuman/terminal-game-manager/main/install.sh | bash
+
+Альтернатива для всех ОС (если выше не работает):
+bash
+
+# Скачай и запусти вручную
+git clone https://github.com/platonzhuman/terminal-game-manager.git
+cd terminal-game-manager
 python -m tgm.main
 
-###-------------------------------------------------------------------------
+🎮 ЗАПУСК ИГРЫ
 
-🎯 Поддерживаемые ОС:
+После установки просто введи:
+bash
 
-    ✅ Windows (PowerShell/CMD)
+tgm
 
-    ✅ Linux (Ubuntu, Fedora, Arch, etc.)
+ИЛИ если команда не найдена:
+bash
 
-    ✅ macOS
+python -m tgm.main
 
-    ✅ Все системы с Python 3.7+
+🎯 ЧТО ВНУТРИ:
 
-🕹️ Игры:
+    🎯 Крестики-нолики Pro с ИИ 4-х уровней сложности
 
-    🎯 Крестики-нолики Pro с ИИ
+    🐍 Классическая змейка с системой рекордов
 
-    🐍 Классическая змейка
+    🎨 Красивый интерфейс с анимациями
 
-    🎨 Красивый интерфейс
+    💾 Автосохранение прогресса
+
+🛠️ РУЧНАЯ УСТАНОВКА
+Windows:
+powershell
+
+# Скачай архив
+Invoke-WebRequest -Uri "https://github.com/platonzhuman/terminal-game-manager/archive/main.zip" -OutFile "game.zip"
+# Распакуй
+Expand-Archive -Path "game.zip" -DestinationPath "."
+cd terminal-game-manager-main
+# Запусти
+python -m tgm.main
+
+Linux/macOS:
+bash
+
+wget https://github.com/platonzhuman/terminal-game-manager/archive/main.zip
+unzip main.zip
+cd terminal-game-manager-main
+python3 -m tgm.main
+
+❗ ЕСЛИ ВОЗНИКЛИ ПРОБЛЕМЫ:
+
+    Убедись что Python установлен:
+    bash
+
+python --version
+
+Должно быть 3.7 или выше
+
+Если python не работает, попробуй:
+bash
+
+python3 --version
+
+или на Windows:
+powershell
+
+py --version
+
+    Нет интернета? Скачай ZIP вручную с GitHub и запусти python -m tgm.main
+
+🎮 УПРАВЛЕНИЕ:
+
+    Стрелки ↑↓ - навигация
+
+    Enter - выбор
+
+    ESC - выход
+
+    Цифры 1-9 - ход в крестиках-ноликах
+
+    Стрелки - управление змейкой
 
 ⭐ Нравится проект? Поставь звезду на GitHub!
