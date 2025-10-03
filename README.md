@@ -1,35 +1,42 @@
 # 🎮 Terminal Game Manager
 
-## 🚀 ЗАПУСК (3 команды!)
+## 🚀 УСТАНОВКА ДЛЯ WINDOWS
 
-```bash
+```powershell
 # 1. Скачай игру
-git clone https://github.com/platonzhuman/game-center-terminal.git
-
-# 2. Зайди в папку  
+git clone https://github.com/platonzhuman/terminal-game-manager.git
 cd terminal-game-manager
+
+# 2. Установи зависимости
+pip install windows-curses
 
 # 3. Запусти игру
 python -m tgm.main
 
+🚀 УСТАНОВКА ДЛЯ LINUX/MAC
+bash
+
+# 1. Скачай игру
+git clone https://github.com/platonzhuman/terminal-game-manager.git
+cd terminal-game-manager
+
+# 2. Запусти игру (curses уже есть в системе)
+python3 -m tgm.main
+
 📥 Если нет Git:
 
-    Скачай ZIP: https://github.com/platonzhuman/game-center-terminal
+    Скачай ZIP: https://github.com/platonzhuman/terminal-game-manager
 
-    Распакуй в любую папку
+    Распакуй
+
+    Установи: pip install windows-curses
 
     Запусти: python -m tgm.main
 
 🎮 Игры:
 
-    🎯 Крестики-нолики с ИИ 4-х уровней
+    🎯 Крестики-нолики с ИИ
 
-    🐍 Змейка с рекордами
-
-💡 Если не работает:
-
-    Попробуй python3 вместо python
-
-    На Windows попробуй py вместо python
+    🐍 Змейка
 
 ⭐ Поставь звезду на GitHub!
